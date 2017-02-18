@@ -1,0 +1,99 @@
+//=============== Section - About-me Start ===============
+.about-me {
+    padding-top: 60px;
+    h2 {
+        color: #363636;
+    }
+    p {
+        color: #000000;
+        text-align: left;
+    }
+    .text {
+        padding-bottom: 25px;
+    }
+    .contact {
+        background: white;
+        border: 1px solid #d7d7d7;
+        border-radius: 30px;
+        width: 150px;
+        height: 45px;
+        font-family: Roboto;
+        color: #555555;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 65px;
+    }
+}
+
+//=============== Section - About-me And ===============
+//=============== Section - Popular Start ===============
+.popular {
+    background: #36b1bf;
+    h2 {
+        color: #ffffff;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+    p {
+        color: #ffffff;
+    }
+    .contact {
+        background: #36b1bf;
+        border: 1px solid #d7d7d7;
+        border-radius: 30px;
+        width: 150px;
+        height: 45px;
+        font-family: Roboto;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 85px;
+        padding: 0;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+//=============== Section - Popular And ===============
+//=============== Section - Portfolio Start ===============
+.portfolio {
+    padding-top: 70px;
+    h2 {
+        color: #363636;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    p {
+        text-align: center;
+        padding-bottom: 2px;
+    }
+    .button-center {
+        text-align: center;
+        padding-bottom: 50px;
+        .viem-portfolio {
+            background: white;
+            border: 1px solid #d7d7d7;
+            border-radius: 30px;
+            width: 150px;
+            height: 45px;
+            font-family: Roboto;
+            color: #555555;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 21px;
+            text-align: center;
+        }
+    }
+}
+
+//=============== Section - Portfolio And ===============
+//=============== Section - Images Start ===============
+//=============== Section - Images And ===============

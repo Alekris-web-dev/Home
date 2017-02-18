@@ -1,0 +1,54 @@
+    header {
+        background-image: url(../img/head-bg-img-1.png);
+        background-size: cover;
+        width: 100%;
+        .head-menu {
+            float: right;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 85px;
+            padding-bottom: 275px;
+            .menu-item {
+                display: inline-block;
+                padding-right: 10px;
+                &:last-child {
+                    padding-right: 0;
+                }
+                a {
+                    text-decoration: none;
+                    font-family: Roboto;
+                    color: #ffffff;
+                    font-size: 14px;
+                    font-weight: 900;
+                    line-height: 21px;
+                    text-align: right;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    &:hover {
+                        border-bottom: 1px solid white;
+                        padding-bottom: 3px;
+                    }
+                }
+            }
+        }
+        h1 {
+            padding-bottom: 70px;
+        }
+        .button {
+            text-align: center;
+            padding-bottom: 220px;
+            .viem-portfolio {
+                border-radius: 30px;
+                background-color: #f2385a;
+                width: 370px;
+                height: 62px;
+                font-family: Roboto;
+                color: #ffffff;
+                font-size: 24px;
+                font-weight: 100;
+                line-height: 19px;
+                text-align: center;
+            }
+        }
+    }

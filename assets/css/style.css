@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url("../fonts/myriad/MyriadPro-Regular.woff") format("woff"), url("../fonts/myriad/MyriadPro-Regular.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url("../fonts/roboto/Roboto-Black.woff") format("woff"), url("../fonts/roboto/Roboto-Black.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../fonts/roboto/Roboto-Bold.woff") format("woff"), url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("../fonts/roboto/Roboto-Light.woff") format("woff"), url("../fonts/roboto/Roboto-Light.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-LightItalic';
+  src: url("../fonts/roboto/Roboto-LightItalic.woff") format("woff"), url("../fonts/roboto/Roboto-LightItalic.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url("../fonts/roboto/Roboto-Thin.woff") format("woff"), url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+  font-style: normal; }
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: white; }
+
+h1,
+h2 {
+  margin: 0; }
+
+h1 {
+  font-family: 'Myriad Pro';
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center; }
+
+h2 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 19px;
+  text-align: left;
+  text-transform: uppercase; }
+
+p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px; }
+
+header {
+  background-image: url(../img/head-bg-img-1.png);
+  background-size: cover;
+  width: 100%; }
+  header .head-menu {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 85px;
+    padding-bottom: 275px; }
+    header .head-menu .menu-item {
+      display: inline-block;
+      padding-right: 10px; }
+      header .head-menu .menu-item:last-child {
+        padding-right: 0; }
+      header .head-menu .menu-item a {
+        text-decoration: none;
+        font-family: Roboto;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 21px;
+        text-align: right;
+        text-transform: uppercase;
+        cursor: pointer; }
+        header .head-menu .menu-item a:hover {
+          border-bottom: 1px solid white;
+          padding-bottom: 3px; }
+  header h1 {
+    padding-bottom: 70px; }
+  header .button {
+    text-align: center;
+    padding-bottom: 220px; }
+    header .button .viem-portfolio {
+      border-radius: 30px;
+      background-color: #f2385a;
+      width: 370px;
+      height: 62px;
+      font-family: Roboto;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 100;
+      line-height: 19px;
+      text-align: center; }
+
+.about-me {
+  padding-top: 60px; }
+  .about-me h2 {
+    color: #363636; }
+  .about-me p {
+    color: #000000;
+    text-align: left; }
+  .about-me .text {
+    padding-bottom: 25px; }
+  .about-me .contact {
+    background: white;
+    border: 1px solid #d7d7d7;
+    border-radius: 30px;
+    width: 150px;
+    height: 45px;
+    font-family: Roboto;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 65px; }
+
+.popular {
+  background: #36b1bf; }
+  .popular h2 {
+    color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 30px; }
+  .popular p {
+    color: #ffffff; }
+  .popular .contact {
+    background: #36b1bf;
+    border: 1px solid #d7d7d7;
+    border-radius: 30px;
+    width: 150px;
+    height: 45px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 85px;
+    padding: 0; }
+  .popular img {
+    width: 100%;
+    height: auto; }
+
+.portfolio {
+  padding-top: 70px; }
+  .portfolio h2 {
+    color: #363636;
+    text-align: center;
+    padding-bottom: 25px; }
+  .portfolio p {
+    text-align: center;
+    padding-bottom: 2px; }
+  .portfolio .button-center {
+    text-align: center;
+    padding-bottom: 50px; }
+    .portfolio .button-center .viem-portfolio {
+      background: white;
+      border: 1px solid #d7d7d7;
+      border-radius: 30px;
+      width: 150px;
+      height: 45px;
+      font-family: Roboto;
+      color: #555555;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 21px;
+      text-align: center; }
+
+.footer-menu-bg {
+  background: #f2385a; }
+  .footer-menu-bg .foot-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 55px;
+    padding-bottom: 60px; }
+    .footer-menu-bg .foot-menu .foot-menu-item {
+      display: inline-block;
+      padding-right: 10px; }
+      .footer-menu-bg .foot-menu .foot-menu-item:last-child {
+        padding-right: 0; }
+      .footer-menu-bg .foot-menu .foot-menu-item a {
+        text-decoration: none;
+        font-family: Roboto;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 21px;
+        text-align: right;
+        text-transform: uppercase;
+        cursor: pointer; }
+        .footer-menu-bg .foot-menu .foot-menu-item a:hover {
+          border-bottom: 1px solid white;
+          padding-bottom: 3px; }
+
+.submit-form {
+  background: #3c3c3c; }
